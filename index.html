@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hackathon Covid-19</title>
+    <title>Hackathon Covid-19 Red dots chilli peppers</title>
 </head>
 <style>
 
@@ -14,14 +14,23 @@
         background-attachment: fixed;
     }
 
-    div {
+    div.text {
         background-color: #bdc3af;
         width: max-width;
         padding: 50px;
         margin: auto;
-        top: 300px;
+        margin-top: 300px;
         position: relative;
     }
+
+    div.figs {
+        background-color: #bdc3af;
+        width: max-width;
+        padding: 50px;
+        margin: max-width;
+        position: relative;
+    }
+
 
     h1 {
         color: #150b04;
@@ -56,12 +65,12 @@
     }
 
      div.gallery {
-      top: 0px;
+      background-color: #bdc3af;
       float: left;
       position: relative;
       width: max-width;
+      padding: 30px;
     }
-
 
     div.gallery img {
       width: 180px;
@@ -72,6 +81,10 @@
       padding: 10px;
       top: 0px;
       text-align: center;
+    }
+
+    ul {
+      color: #5c5241;
     }
 
     .button {
@@ -97,65 +110,111 @@
 <body>
 
 <h2>
-    Hackathon Covid-12 <br> Modelling of Covid-19 spread
+    Hackathon Covid-12 <br> Red dots chilli peppers
 </h2>
 
-<div>
-<button class="button button1">Button</button>
-<h1> About us </h1>
+<div class="text">
+
+
+<h1>The project</h1>
+
 <p> The Covid-19 disease represents one of the greatest challenges in public health in recent years.
     The disease is spreading at an astonishing pace and we are not equipped to block it's expansion.
     This project was created in the frame of <a href = "https://www.codevscovid19.org" > CodeVsCovid-19</a>, a Hackathon organised between 27 and 30 March 2020.
     The hackathon aims at providing innovative solutions against the coronavirus. </p>
 
+<p> We created an interactive model to simulate the spread of the covid-19 disease.
+The aim of the model is to help people understand why quarantine is a very effective measure.
+<br>
+    The model consists of a map with moving dots representing people.
+    We start with a healthy population and only some infected individuals.
+    When two dots collide, the disease can be transmitted.
+    After a while, people show symptoms and go to hospital.
+    Older people have a higher priority than others in using the hospital.
+    Depending on their age, they have a certain probability of being cured or dying.
+    If the hospital is full and they cannot be treated by doctors, they have a greater chance of dying.
+<br>
+    We can choose parameters for the simulation such as:
+    <ul>
+        <li>the number of sick people needed to trigger the lockdown;</li>
+        <li>the probability of transmission;</li>
+        <li>who wears protections (masks, gloves) that decrease the probability of transmission;</li>
+        <li>the size of the dots which (the bigger they are, the smaller the social distance);</li>
+        <li>and many more ...</li>
+    </ul>
+</p>
+<p>
+    Part of the population is made up of doctors.
+    Doctors can freely go to hospitals and visit people in their homes, even when the lockdown is active.
+    They also have a higher protection priority.
+</p>
+
+
+<h1> About us </h1>
+
 <p> We are a group of master students in bioinformatics at the ULB, Brussels.
     We designed a simplified epidemiological model that simulates the outcome of the Covid19 outbreak under different conditions.</p>
 
+<p> Our code is available in open access <a href = "https://github.com/chhendri/Covid-19_hackaton" target="_blank"> here. </a> </p>
+
+</div>
+
+<div class="figs">
+
     <div class="gallery">
       <a target="_blank" href="img_5terre.jpg">
-        <img src="me.jpg" alt="Me" width="600" height="400">
+        <img src="me.jpg" alt="Me" width="500" height="400">
       </a>
       <div class="desc">Charlotte <br> Hendrickx </div>
     </div>
     <div class="gallery">
       <a target="_blank" href="img_5terre.jpg">
-        <img src="jan.png" alt="Jan" width="600" height="400">
+        <img src="jan.png" alt="Jan" width="500" height="400">
       </a>
       <div class="desc">Jan <br> Van den Schilden </div>
     </div>
     <div class="gallery">
       <a target="_blank" href="img_5terre.jpg">
-        <img src="chris.png" alt="Me" width="600" height="400">
+        <img src="chris.png" alt="Me" width="500" height="400">
       </a>
       <div class="desc">Chris <br> Adam </div>
     </div>
     <div class="gallery">
       <a target="_blank" href="img_5terre.jpg">
-        <img src="me.jpg" alt="Me" width="600" height="400">
+        <img src="Del.jpg" alt="Me" width="500" height="400">
       </a>
       <div class="desc"> Delanoe <br> Pirard </div>
     </div>
     <div class="gallery">
       <a target="_blank" href="img_5terre.jpg">
-        <img src="Picture1.png" alt="Me" width="600" height="400">
+        <img src="Picture1.png" alt="Me" width="500" height="400">
       </a>
       <div class="desc">Pierrot <br> Van der Aa </div>
     </div>
+    <div class="gallery">
+      <a target="_blank" href="img_5terre.jpg">
+        <img src="Est.jpg" alt="Me" width="500" height="400">
+      </a>
+      <div class="desc">Esteban <br> Cortez Garcia </div>
+    </div>
+    <p>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    </p>
 
+</div>
+
+<div class="figs">
 <h1> Facts about coronavirus </h1>
 
-<p> Coronavirus is ........</p>
+<p> If you want some information about coronavirus, a good starting point would be this video from <a href = "https://www.youtube.com/user/Kurzgesagt" > Kurzgesagt</a></p>
 
 <center>
     <iframe width="761" height="428" align="middle" src="https://www.youtube.com/embed/BtN-goy9VOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 
-<p> Our code is available in open access <a href = "https://github.com/chhendri/Covid-19_hackaton" target="_blank"> here </a> </p>
+
 </div>
-
-
-
 
 
 
