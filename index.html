@@ -3,218 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <title>Hackathon Covid-19 Red dots chili peppers</title>
-</head>
-<style>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Montserrat&display=swap" rel="stylesheet">
+    <style>
 
-    body {
-        background-image: url('https://www.sanmarcosrecord.com/sites/sanmarcosrecord.etypegoogle4.com/files/styles/juicebox_large/public/field/image/covid-19.jpg?itok=p77EtwYp');
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+      body {
+          background-image: url('https://www.sanmarcosrecord.com/sites/sanmarcosrecord.etypegoogle4.com/files/styles/juicebox_large/public/field/image/covid-19.jpg?itok=p77EtwYp');
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+  
+      div.text {
+          background-color: #bdc3af;
+          width: max-width;
+          padding: 50px;
+          margin: auto;
+          margin-top: 150px;
+          position: relative;
+      }
+  
+      div.textoi {
+          background-color: #bdc3af;
+          width: max-width;
+          padding: 50px;
+          margin: auto;
+          position: relative;
+          align-items: center;
+          padding-bottom: auto;
+          background-width: 100%;
+      }
+  
+      h1 {
+          color: #150b04;
+          text-align: left;
+          line-height:1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          border-bottom: 1px solid #150b04;
+          position: relative;
+          font-family: 'Baloo Thambi 2', cursive !important;
+          font-weight: bold;
+      }
+  
+      h2 {
+          background-color: #bdc3af;
+          opacity: 0.85;
+          color: #150b04;
+          text-align: center;
+          font-family: 'Baloo Thambi 2', cursive !important;
+          font-weight: bold;
+          font-size: 50px;
+          position: relative;
+          padding: 30px;
+          top: 100px;
+      }
+  
+      p {
+          color: #5c5241;
+          text-align: justify;
+          line-height:1.3;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+      }
 
-    div.text {
-        background-color: #bdc3af;
-        width: max-width;
-        padding: 50px;
-        margin: auto;
-        margin-top: 300px;
-        position: relative;
-    }
-
-    div.textoi {
-        background-color: #bdc3af;
-        width: max-width;
-        padding: 50px;
-        margin: auto;
-        position: relative;
-        align-items: center;
-        padding-bottom: auto;
-        background-width: 100%;
-    }
-
-    h1 {
-        color: #150b04;
-        text-align: left;
-        line-height:1.3;
-        font-family: Arial, Helvetica, sans-serif;
-        border-bottom: 1px solid #150b04;
-        position: relative;
-    }
-
-    h2 {
-        background-color: #bdc3af;
-        opacity: 0.85;
-        color: #150b04;
+      li {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          font-weight: bolder;
+      }
+  
+      a {
+          color: #87232f
+      }
+  
+       div.gallery {
+          background-color: #bdc3af;
+          padding: 20px;
+      }
+  
+      div.gallery img {
+        width: 180px;
+        height: 200px;
+      }
+  
+      div.desc {
+        padding: 10px;
+        top: 0px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 50px;
-        position: relative;
-        padding: 30px;
-        top: 100px;
-    }
-
-    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: bolder;
+      }
+  
+      ul {
         color: #5c5241;
-        text-align: left;
-        line-height:1.3;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    a {
-        color: #87232f
-    }
-
-     div.gallery {
-        margin-left: auto;
-        margin-right: auto;
+      }
+  
+      .button {
+        background-color: #87232f;
+        border: 2px solid #87232f;
+        float: right;
+        padding: 15px 32px;
+        color: #f4f9fb;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+      }
+  
+      .button1:hover {
         background-color: #bdc3af;
-        float: left;
-        position: relative;
-        width: max-width;
-        padding: 20px;
-    }
+        color: #87232f;
+      }
+  
+      .video-responsive { 
+        margin-top: 35px;
+        overflow:hidden; 
+        padding-bottom:56.25%; 
+        position:relative; 
+        height:0;
+      }
 
-    div.gallery img {
-      width: 180px;
-      height: 200px;
-    }
-
-    div.desc {
-      padding: 10px;
-      top: 0px;
-      text-align: center;
-    }
-
-    ul {
-      color: #5c5241;
-    }
-
-    .button {
-      background-color: #87232f;
-      border: 2px solid #87232f;
-      float: right;
-      padding: 15px 32px;
-      color: #f4f9fb;
-      text-align: center;
-      display: inline-block;
-      font-size: 16px;
-      transition-duration: 0.2s;
-      cursor: pointer;
-    }
-
-    .button1:hover {
-      background-color: #bdc3af;
-      color: #87232f;
-    }
-
-
-</style>
+      .video-responsive iframe {
+        left:0; 
+        top:0; 
+        padding-right: 50px;
+        padding-left: 50px;
+        height:100%;
+        width:100%;
+        position:absolute;
+        }
+  </style>
+</head>
 <body>
+  <h2>
+    <div style="font-weight: lighter;">Hackathon Covid-19</div>Red dots chili peppers
+  </h2> 
 
-<h2>
-    Hackathon Covid-19 <br> Red dots chili peppers
-</h2>
+  <div>
+    <div class="text">
+      <h1>The project</h1>
+    
+      <p> The Covid-19 disease represents one of the greatest challenges in public health in recent years.
+          The disease is spreading at an astonishing pace and we are not equipped to block it's expansion.
+          This project was created in the frame of <a href = "https://www.codevscovid19.org" > CodeVsCovid-19</a>, a Hackathon organised between 27 and 30 March 2020.
+          The hackathon aims at providing innovative solutions against the coronavirus. </p>
+    
+      <p> We created an interactive model to simulate the spread of the covid-19 disease.
+      The aim of the model is to help people understand why quarantine is a very effective measure.
+      <br>
+          The model consists of a map with moving dots representing people.
+          We start with a healthy population and only some infected individuals.
+          When two dots collide, the disease can be transmitted.
+          After a while, people show symptoms and go to hospital.
+          Older people have a higher priority than others in using the hospital.
+          Depending on their age, they have a certain probability of being cured or dying.
+          If the hospital is full and they cannot be treated by doctors, they have a greater chance of dying.
+      <br>
+          We can choose parameters for the simulation such as:
+          <ul>
+              <li>the number of sick people needed to trigger the lockdown;</li>
+              <li>the probability of transmission;</li>
+              <li>who wears protections (masks, gloves) that decrease the probability of transmission;</li>
+              <li>the size of the dots which (the bigger they are, the smaller the social distance);</li>
+              <li>and many more ...</li>
+          </ul>
+      </p>
+      <p>
+          Part of the population is made up of doctors.
+          Doctors can freely go to hospitals and visit people in their homes, even when the lockdown is active.
+          They also have a higher protection priority.
+      </p>
+    
+      <p> Check out the demo video of the model below.
+      <br> Our code is available in open access <a href = "https://github.com/chhendri/Covid-19_hackaton" target="_blank"> here. </a> </p>
+      </p>
+      <div class="video-responsive">
+          <iframe width="949" height="534" src="https://www.youtube.com/embed/LVZgFiFS3Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 
-<div class="text">
 
-
-<h1>The project</h1>
-
-<p> The Covid-19 disease represents one of the greatest challenges in public health in last months.
-    The disease is spreading at an astonishing pace and we are not equipped to stop it's expansion.
-    This project was created in the frame of <a href = "https://www.codevscovid19.org" > CodeVsCovid-19</a>, a Hackathon organised between 27<sup>th</sup> and 30<sup>th</sup> March 2020.
-    The hackathon aims at providing innovative solutions against the coronavirus. </p>
-
-<p> As master's students in bioinformatics and modeling, we decided to designe a simplified epidemiological model that simulates the outcome of the Covid19 outbreak under different conditions.
-    This visualization of lockdown measures aims to help people understand its importance in order to slow down and control the spread of the virus.
-<br>
-    The model consists of a map with moving dots representing people.
-    We start with a healthy population and only some infected individuals.
-    When two dots collide, the disease can be transmitted.
-    After a while, people show symptoms and go to hospital.
-    Older people have a higher priority than others in using the hospital.
-    Depending on their age, they have a certain probability of being cured or dying.
-    If the hospital is full and they cannot be treated by doctors, they have a greater chance of dying.
-<br>
-    We can choose parameters for the simulation such as:
-    <ul>
-        <li>the number of sick people needed to trigger the lockdown;</li>
-        <li>the probability of transmission;</li>
-        <li>who wears protections (masks, gloves) that decrease the probability of transmission;</li>
-        <li>the size of the dots which (the bigger they are, the smaller the social distance);</li>
-        <li>and many more ...</li>
-    </ul>
-</p>
-<p>
-    Part of the population is made up of doctors.
-    Doctors can freely go to hospitals and visit people in their homes, even when the lockdown is active.
-    They also have a higher protection priority.
-</p>
-
-<p> Check out the demo video of the model below.
-<br> Our code is available in open access <a href = "https://github.com/chhendri/Covid-19_hackaton" target="_blank"> here. </a> </p>
-</p>
-<center>
-    <iframe width="949" height="534" src="https://www.youtube.com/embed/LVZgFiFS3Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-</div>
 
 <div class="text">
     <h1> Facts about coronavirus </h1>
     <p> If you want some information about coronavirus, a good starting point would be this video from <a href = "https://www.youtube.com/user/Kurzgesagt" > Kurzgesagt</a></p>
-    <center>
+    <div class="video-responsive">
         <iframe width="761" height="428" align="middle" src="https://www.youtube.com/embed/BtN-goy9VOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </center>
+    </div>
 
 </div>
 
 
-
-<div class="text">
-    <h1> About us </h1>
-    <p> We are a group of master students in bioinformatics at the ULB, Brussels.
+<div>
+  <div class="text">
+    <div>
+      <h1> About us </h1>
+      <p> We are a group of master students in bioinformatics at the ULB, Brussels.
         We designed a simplified epidemiological model that simulates the outcome of the Covid19 outbreak under different conditions.</p>
-    <p> Our code is available in open access <a href = "https://github.com/chhendri/Covid-19_hackaton" target="_blank"> here. </a> </p>
-
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="me.jpg" alt="Me" width="500" height="400">
-      </a>
-      <div class="desc">Charlotte <br> Hendrickx </div>
+      <p> Our code is available in open access <a href = "https://github.com/chhendri/Covid-19_hackaton" target="_blank"> here. </a> </p>
     </div>
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="jan.png" alt="Jan" width="500" height="400">
-      </a>
-      <div class="desc">Jan <br> Van den Schilden </div>
+    <div class="row">
+      <div class="gallery col">
+        <a target="_blank" href="img_5terre.jpg" style="align-items: center;">
+          <img src="me.jpg" alt="Me" width="500" height="400">
+        </a>
+        <div class="desc">Charlotte <br> Hendrickx </div>
+      </div>
+      <div class="gallery col">
+        <a target="_blank" href="img_5terre.jpg" style="align-items: center;">
+          <img src="jan.png" alt="Jan" width="500" height="400">
+        </a>
+        <div class="desc">Jan <br> Van den Schilden </div>
+      </div>
+      <div class="gallery col">
+        <a target="_blank" href="img_5terre.jpg" style="align-items: center;">
+          <img src="chris.png" alt="Me" width="500" height="400">
+        </a>
+        <div class="desc">Chris <br> Adam </div>
+      </div>
+      <div class="gallery col">
+        <a target="_blank" href="img_5terre.jpg" style="align-items: center;">
+          <img src="Del.jpg" alt="Me" width="500" height="400">
+        </a>
+        <div class="desc"> Delanoe <br> Pirard </div>
+      </div>
+      <div class="gallery col">
+        <a target="_blank" href="img_5terre.jpg" style="align-items: center;">
+          <img src="Picture1.png" alt="Me" width="500" height="400">
+        </a>
+        <div class="desc">Pierrot <br> Van der Aa </div>
+      </div>
+      <div class="gallery col">
+        <a target="_blank" href="img_5terre.jpg" style="align-items: center;">
+          <img src="Est.jpg" alt="Me" width="500" height="400">
+        </a>
+        <div class="desc">Esteban <br> Cortez Garcia </div>
+      </div>
     </div>
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="chris.png" alt="Me" width="500" height="400">
-      </a>
-      <div class="desc">Chris <br> Adam </div>
-    </div>
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="Del.jpg" alt="Me" width="500" height="400">
-      </a>
-      <div class="desc"> Delanoe <br> Pirard </div>
-    </div>
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="Picture1.png" alt="Me" width="500" height="400">
-      </a>
-      <div class="desc">Pierrot <br> Van der Aa </div>
-    </div>
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="Est.jpg" alt="Me" width="500" height="400">
-      </a>
-      <div class="desc">Esteban <br> Cortez Garcia </div>
-    </div>
+  </div>
+  <div style="margin-bottom: 100px;"></div>
 </div>
+
 
 
 
